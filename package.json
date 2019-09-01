@@ -1,0 +1,28 @@
+{
+  "name": "strava-minimal-api",
+  "version": "1.0.0",
+  "description": "minimal api to access strava data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnovacik/strava-minimal-api.git"
+  },
+  "keywords": [
+    "strava",
+    "api"
+  ],
+  "author": "https://github.com/dnovacik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnovacik/strava-minimal-api/issues"
+  },
+  "homepage": "https://github.com/dnovacik/strava-minimal-api#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "qs": "^6.8.0"
+  }
+}
